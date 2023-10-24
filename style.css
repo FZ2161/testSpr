@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb( 55,55,55);
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-template-columns: 80% 20%;
+}
+#left{
+    padding: 5px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    
+}
+
+.divs{
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid rgb(20,20,20);
+    border-radius: 10px;
+
+}
+
+h3{
+    width: 100%;
+}
+button{
+    width: 90%;
+}
+
+#right1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#right{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 90% 10%;
+}
+
+.z{
+    width: 50%;
+}
